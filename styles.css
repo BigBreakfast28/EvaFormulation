@@ -1,0 +1,105 @@
+/*Start of Navigation bar*/
+.navigation {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.chaosList {
+    background-color: #1e2761;
+    padding-left: 63%;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+.mainList {
+    list-style: none;
+    padding: 1vw;
+    display: inline;
+}
+
+.mainLink {
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.mainLink:link {
+    text-decoration: none;
+}
+
+.mainLink:visited {
+    color: white;
+}
+
+.mainLink:hover {
+    text-decoration: underline;
+    
+}
+
+/*End of Navigation bar*/
+
+/*Start of Advertisement Div on home page*/
+.advertisement {
+    background-image: url(./public/yougothis.jpg);
+    background-size:cover;
+    background-repeat: none;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.banner1 {
+    margin-top: 0%;
+    padding: 8vw 8vw 0vw 8vw;
+    color: white;
+    font-size: 3em;
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+}
+
+.description1 {
+    padding: 0vw 8vw 8vw 8vw;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+}
+
+.banner2 {
+    color: white;
+    padding:8vw;
+    font-family: "Poppins", sans-serif;
+    font-size: 6em;
+    
+}
+
+.bg-custom {
+    background-color: #1e2761;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+/*Messing around with test page styling */
+
+
+.cover {
+    background-image: url(./public/yougothis.jpg);
+    background-size:cover;
+    background-repeat: none;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+.parse {
+padding-left: 20vw;
+}
+
+.bg-toggle {
+    background-color: #800000;
+}
