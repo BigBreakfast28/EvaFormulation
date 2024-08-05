@@ -3,6 +3,15 @@
 .bg-custom {
     background-color: #1e2761;
 }
+
+.bg-maroon {
+    background-color: #7a2048;
+}
+
+a, ul li {
+    cursor: pointer;
+    list-style: none;
+}
 .cover {
     background-image: url(./public/yougothis.jpg);
     background-size:cover;
@@ -11,7 +20,11 @@
     width: 100%;
 }
 
-h1 {
+.attention-grab {
+    color: #157b9e;
+}
+
+.pop {
     font-family: "Poppins", sans-serif;
 }
 
@@ -20,21 +33,60 @@ padding-left: 20vw;
 }
 
 .bg-toggle {
-    background-color: #408ec6;
+    background-color: #157b9e;
 }
+
+.text-indigo {
+    color: #1e2761;
+    font-weight: 800;
+}
+
+.process {
+    color:#7a2048;
+    font-weight: 600;
+}
+
+.text-blue {
+    color: #408ec6;
+}
+
+.client-experience {
+    padding: 6vw;
+}
+
+.website-type {
+    padding: 10vw;
+}
+
+.foot-img {
+    background-image: url(./public/EVATrans.png);
+    background-size: cover;
+    height: fit-content;
+    width: fit-content;
+    background-position-y: 100%;
+    padding: 15vw;
+    padding-bottom: 5vw;
+
+}
+
 
 @media  screen and (min-width: 100px) and (max-width: 800px) {
     .bg-custom {
         background-color: #7a2048;
     }
 
+    .attention-grab {
+        color: white;
+    }
+
     .cover {
         background-image: url(./public/cyber.jpg);
         background-size:cover;
-        background-repeat: none;git 
+        background-repeat: none;
         height: 100%;
         width: 100%;
-
+        background-position-x: center;
+        color: white;
     }
 }
     
