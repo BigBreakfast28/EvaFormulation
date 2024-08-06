@@ -13,7 +13,7 @@ a, ul li {
     list-style: none;
 }
 .cover {
-    background-image: url(./public/yougothis.jpg);
+    background-image: url(./public/BusinessSet.jpg);
     background-size:cover;
     background-repeat: none;
     height: 100%;
@@ -21,7 +21,13 @@ a, ul li {
 }
 
 .attention-grab {
-    color: #157b9e;
+    color: #964B00;
+    font-weight: 900;
+}
+
+.subattention-grab {
+    color: #408ec6;
+    font-weight: 900;
 }
 
 .pop {
