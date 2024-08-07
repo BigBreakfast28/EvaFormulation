@@ -26,7 +26,7 @@
         <header>
             <nav class="navbar navbar-expand-md bg-custom">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="./test.php"><img src="./public/EVATrans.png" style="width: 120px;"></a>
+                        <a class="navbar-brand" href="./index.php"><img src="./public/EVATrans.png" style="width: 120px;"></a>
                         <button class="navbar-toggler border-white bg-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -43,10 +43,9 @@
         </header>
         <main>
             <div class="container-fluid cover">
-                <h1 class="display-1 p-5 pop attention-grab">Web development professional</h1>
-                <p class="display-3 p-5 subattention-grab">This is just a bunch of filler text to see how the page looks.</p>
-                <h1 class="display-1 p-5 pop attention-grab">I see that I can only have a padding max of "5" when setting margins and padding</h1>
-                <p class="display-3 p-5 attention-grab">This is going to be an important lesson when building the rest of the page!</p>
+                <h1 class="display-1 pop headliner text-center">Web Development Professional</h1>
+                <h1 class="display-1 pop subliner text-center">The way to get started is to begin doing</h1>
+                
             </div>
 
             <div class="container-fluid client-experience ">

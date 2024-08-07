@@ -29,7 +29,7 @@
         <header>
         <nav class="navbar navbar-expand-md bg-custom">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="./test.php"><img src="./public/EVATrans.png" style="width: 120px;"></a>
+                        <a class="navbar-brand" href="./index.php"><img src="./public/EVATrans.png" style="width: 120px;"></a>
                         <button class="navbar-toggler border-white bg-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -47,7 +47,7 @@
 
 
         <main>
-            <h1 class="container-fluid text-indigo text-center ">Get consultation </h1>
+            <h1 class="container-fluid text-indigo text-center my-5">Get consultation </h1>
 
             <div class="container-fluid">
                 <fieldset>

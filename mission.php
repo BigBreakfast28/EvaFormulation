@@ -29,7 +29,7 @@
         <header>
         <nav class="navbar navbar-expand-md bg-custom">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="./test.php"><img src="./public/EVATrans.png" style="width: 120px;"></a>
+                        <a class="navbar-brand" href="./index.php"><img src="./public/EVATrans.png" style="width: 120px;"></a>
                         <button class="navbar-toggler border-white bg-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -44,7 +44,69 @@
                     </div>
             </nav>
         </header>
-        <main></main>
+
+
+        <main>
+            <div class="container-fluid">
+                <div class="">
+                    <h1 class="pop headliner-mission text-center display-1">The journey to sucess is more important than the destination</h1>
+                </div>
+
+                <div class="bg-maroon">
+                    <p class="subliner-mission text-center display-5 pop">
+                        EVA is here to help people acheive their dreams. We strive to be much more than a software development company.
+                        The greatest satifaction is watching someone reach a goal that they have been striving for. 
+                        We understand that behind every business owner is blood, sweat and tears. EVA is a entity that was created for the sole purpose of bringing business development to the next level.<br>
+                    </p>
+                </div> 
+            </div>
+
+            <div class="container mt-5">
+                <h2 class="headliner-mission display-3 pop text-center">Curious on EVA's Logo?</h2>
+                <div id="accordion">
+                    <div class="card">
+                    <div class="card-header">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                        About the CEO
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                        <div class="card-body">
+                        The CEO and lead developer has a bachelors degree in chemistry which he obtained from SIUE. He has an abundance of industrial experience ranging from quality control to research and development.
+                        He is currently working in an R&D lab focused on cementitous products.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                        What is EVA
+                    </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                        E.V.A is actually a acronym. It's short for Ethylene Vinyl Acetate, which is a type of polymer used in various industries. The utility for this product is <strong>HUGE</strong> and facinating. 
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                        Why EVA is relevant to you
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                        EVA is typically the type of polymer used in cementitous products. EVA acts as the glue for concrete which improves strength, adhesion, and an abundance of other properties. 
+                        This same methodoly will be applied to your business. Having a web page is essential in today's world. Putting your business online is professional and will improve it every way. Cement your business online <strong>TODAY</strong>!
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
         <footer>
         <div class="container-fluid mt-5">
                    <div class="container-fluid row">
