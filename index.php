@@ -57,7 +57,7 @@
             
                 <div class="offcanvas offcanvas-end" id="demo">
                 <div class="offcanvas-header">
-                    <h1 class="offcanvas-title text-indigo ">B.D.S.S is essential for customer success</h1>
+                    <h1 class="offcanvas-title text-indigo">B.D.S.S is essential for customer success</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
                 </div>
                 <div class="offcanvas-body">

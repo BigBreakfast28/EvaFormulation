@@ -104,6 +104,46 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col my-5">
+                      <h1 class="pop text-center process p-3">Why EVA is the right choice for you</h1>
+                      <p class="text-center pop">Customer satifaction is the number 1 priority</p>
+                    </div>
+                    <div class="col border my-5">
+                        <p class="text-blue p-5 text-center"> Our customers goals here at EVA. We want each of our customers to acheive the level of success they strive for. This is why it is essential for us to develop a deep understanding of the nature of your business. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="col my-2">
+                    <h1 class="pop text-center process p-3">Core Values: B.D.S.S</h1>
+                    <p class="text-center pop">The system designed for you</p>
+                </div>
+                <div class="row">
+                    <div class="col border my-5">
+                         <h1 class="text-center pop">Business Goal</h1>
+                         <p>Description about goal</p>
+                    </div>
+
+                    <div class="col border my-5">
+                         <h1 class="text-center pop">Design</h1>
+                         <p>Description about goal</p>
+                    </div>
+
+                    <div class="col border my-5">
+                         <h1 class="text-center pop">Sustainability</h1>
+                         <p>Description about goal</p>
+                    </div>
+
+                    <div class="col border my-5">
+                         <h1 class="text-center pop">Support</h1>
+                         <p>Description about goal</p>
+                    </div>
+            </div>
+        </div>
         </main>
 
 

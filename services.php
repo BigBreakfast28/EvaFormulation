@@ -44,7 +44,24 @@
                     </div>
             </nav>
         </header>
-        <main></main>
+
+
+        <main>
+        <div class="services">
+            <h1 class="pop headliner-mission "></h1>
+        </div>
+        <div class="row">
+                <div class="col my-2">
+                    <h1 class="pop text-center process p-3">Personalized design experience</h1>
+                    <p class="text-center pop">B.D.S.S process</p>
+                </div>
+                <div class="col border my-5">
+                    <p class="text-blue p-5 text-center"> Four essential pillars to ensuring our customers get what they need. The first step in the process </p>
+                </div>
+            </div>
+        </main>
+
+
         <footer>
         <div class="container-fluid mt-5">
                    <div class="container-fluid row">
