@@ -109,39 +109,56 @@
                 <div class="row">
                     <div class="col my-5">
                       <h1 class="pop text-center process p-3">Why EVA is the right choice for you</h1>
-                      <p class="text-center pop">Customer satifaction is the number 1 priority</p>
+                      <p class="text-center pop">Customer satifaction is our number 1 priority</p>
                     </div>
                     <div class="col border my-5">
-                        <p class="text-blue p-5 text-center"> Our customers goals here at EVA. We want each of our customers to acheive the level of success they strive for. This is why it is essential for us to develop a deep understanding of the nature of your business. </p>
+                        <p class="text-blue p-5 text-center">
+                             Our customers goals here at EVA. We want each of our customers to acheive the level of success they strive for. This is why it is essential for us to develop a deep understanding of the nature of your business. 
+                        </p>
                     </div>
                 </div>
             </div>
 
-            <div class="container-fluid">
-                <div class="col my-2">
+            <div class="container-fluid ">
+                <div class="col my-2 ">
                     <h1 class="pop text-center process p-3">Core Values: B.D.S.S</h1>
-                    <p class="text-center pop">The system designed for you</p>
+                    <p class="text-center pop container">The system designed for you</p>
                 </div>
-                <div class="row">
-                    <div class="col border my-5">
+                <div>
+                    <div class="row ">
+                    <div class="col my-5">
                          <h1 class="text-center pop">Business Goal</h1>
-                         <p>Description about goal</p>
+                         <p class="text-center">
+                            We work closely with each customer to determine what their business are, if they don't already know. 
+                            Understanding the customers industry is essential for establishing a succesful business. 
+                            Our goal is get a clear vision of what the customer desires and strive to make that happen.
+                        </p>
                     </div>
 
-                    <div class="col border my-5">
+                    <div class="row border-black my-5 ">
                          <h1 class="text-center pop">Design</h1>
-                         <p>Description about goal</p>
+                         <p class="text-center">
+                            We will create a design that uniques conveys the message of your service. 
+                            Our purpose is sculpt the passion that your business demonstrates. 
+                            This includes color schemes, customized layouts, and changing display for each device.
+                        </p>
                     </div>
 
-                    <div class="col border my-5">
+                    <div class="row border-black my-5 ">
                          <h1 class="text-center pop">Sustainability</h1>
-                         <p>Description about goal</p>
+                         <p class="text-center">
+                            The website created here at EVA are designed for sustainability. 
+                            These sites are built to scale upon customer needs and have improved SEO.
+                         </p>
                     </div>
 
-                    <div class="col border my-5">
+                    <div class="row border-black my-5 ">
                          <h1 class="text-center pop">Support</h1>
-                         <p>Description about goal</p>
+                         <p class="text-center">
+                            Description about goal
+                        </p>
                     </div>
+                </div>
             </div>
         </div>
         </main>

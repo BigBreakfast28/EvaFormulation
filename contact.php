@@ -1,3 +1,38 @@
+<?php 
+$name = $email = $phone = '';
+$nameErr = $emailErr = $phoneErr = '';
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if (empty($_POST['name'])) {
+        $nameErr = "This is a required field";
+    } else {
+    $name = form_input($name);
+    }
+   
+    $email = form_input($email);
+    $phone = form_input($phone);
+    $comments = form_input($comments);
+}
+
+function form_input($data) {
+    $data = htmlspecialchars($data);
+    $data = stripcslashes($data);
+    $data = trim($data);
+    return $data;
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -51,7 +86,7 @@
 
             <div class="container-fluid">
                 <fieldset>
-                    <form action="" method="post" class="was-validated border p-5">
+                    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post" class="was-validated border p-5">
                         <div class="form-floating mb-3 mt-3">
                             <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" required>
                             <label for="name">Name:</label>
@@ -61,14 +96,14 @@
 
                         <div class="form-floating mb-3 mt-3">
                             <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
-                            <label for="name">Email:</label>
+                            <label for="email">Email:</label>
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
 
                         <div class="form-floating mb-3 mt-3">
                             <input type="tel" class="form-control" id="phone" placeholder="000-000-0000" name="phone" required>
-                            <label for="name">Phone:</label>
+                            <label for="phone">Phone:</label>
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>

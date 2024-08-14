@@ -88,7 +88,7 @@
                                 <div class="card-body">
                                     <h3 class="card-title ">Photography Portfolio website</h3>
                                     <p class="card-text">Creating a beautiful portfolio website to display to clients is essential for attracting clients.</p>
-                                    <a class="card-link" href="www.kodakkevin.com">Take a look</a>
+                                    <a class="card-link" href="https:/www.kodakkevin.com/">Take a look</a>
                                 </div>
                             </div>
                     </div>
