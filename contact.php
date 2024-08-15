@@ -2,7 +2,7 @@
 
 $to = "deancameron99@gmail.com";
 $from = "EVA Formulations";
-$
+
 $name = $email = $phone = $comments = '';
 $nameErr = $emailErr = $phoneErr = $comments = '';
 $valid = TRUE;
@@ -151,15 +151,7 @@ function form_input($data) {
 
                     </form>
                 </fieldset>
-            </div>
-            <?php
-                echo "<h2>Test Input</h2>" . "<br>";
-                echo "Name: " . $name . "<br>";
-                echo "Email: " . $email . "<br>";
-                echo "Phone: " . $phone . "<br>";
-                echo "Comments " . $comments . "<br>";
-            
-            ?>
+            </div>git 
         </main>
 
 

@@ -155,7 +155,9 @@
                     <div class="row border-black my-5 support">
                          <h1 class="text-center pop">Support</h1>
                          <p class="text-center">
-                            Description about goal
+                            We offer around the clock support for business owners. This includes trouble shooting, redesign, and SEO imrovement. Our intention is to provide the business with every tool they need to be successful regardless of the time of day.
+                            It is our goal to research web development and determine which site layouts are the most successful in conveying messages to targeted audience. Most importantly, there are no hidden fees!
+                            Book with EVA and start your journey today. 
                         </p>
                     </div>
                 </div>
