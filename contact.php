@@ -1,17 +1,56 @@
 <?php 
-$name = $email = $phone = '';
-$nameErr = $emailErr = $phoneErr = '';
+
+$to = "deancameron99@gmail.com";
+$from = "EVA Formulations";
+$
+$name = $email = $phone = $comments = '';
+$nameErr = $emailErr = $phoneErr = $comments = '';
+$valid = TRUE;
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (empty($_POST['name'])) {
-        $nameErr = "This is a required field";
+        $nameErr = "This is a required field!";
     } else {
-    $name = form_input($name);
+        $name = form_input($_POST['name']);
+        if (!preg_match("/^[a-zA-Z-]*$/",$name)) {
+            $nameErr = "Only letters and white space is allowed";
+            $valid = FALSE;
+        }
     }
-   
-    $email = form_input($email);
-    $phone = form_input($phone);
-    $comments = form_input($comments);
+    
+    if (empty($_POST['email'])) {
+        $emailErr = "This is a required field!";
+    } else {
+        $email = form_input($_POST['email']);
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $emailErr = "Invalid email address!";
+            $valid = FALSE;
+        }
+    }
+
+    if (empty($_POST['phone'])) {
+        $phoneErr = "This is a required field!";
+    } else {
+        $phone = form_input($_POST['phone']);
+        if (!preg_match('/^[0-9]{10}+$/',$phone)) {
+            $phoneErr = "Please enter a valid phone number!";
+            $valid = FALSE;
+        }
+    }
+
+    if (empty($_POST['comments'])) {
+        $comments = '';
+    } else {
+        $comments = form_input($_POST['comments']);
+    }
+
+    if ($valid) {
+        $message = "Name: " . $name . "\n" . "Phone: " . $phone . "\n" . "Email: " . $email . "\n" . "Comments: " . $comments;
+
+        mail($to, $subject, $message);
+        
+        echo "<script>alert('$text');</script>";
+    }
 }
 
 function form_input($data) {
@@ -21,14 +60,6 @@ function form_input($data) {
     return $data;
 }
 ?>
-
-
-
-
-
-
-
-
 
 
 
@@ -88,29 +119,30 @@ function form_input($data) {
                 <fieldset>
                     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post" class="was-validated border p-5">
                         <div class="form-floating mb-3 mt-3">
-                            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" required>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name"  value="<?php echo $name; ?>" required>
                             <label for="name">Name:</label>
                             <div class="valid-feedback">Valid.</div>
-                            <div class="invalid-feedback">Please fill out this field.</div>
+                            <div class="invalid-feedback">Please fill out this field. <?php echo $nameErr ?></div>
                         </div>
 
                         <div class="form-floating mb-3 mt-3">
-                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" value="<?php echo $email;?>" required>
                             <label for="email">Email:</label>
                             <div class="valid-feedback">Valid.</div>
-                            <div class="invalid-feedback">Please fill out this field.</div>
+                            <div class="invalid-feedback">Please fill out this field. <?php echo $emailErr ?></div>
                         </div>
 
                         <div class="form-floating mb-3 mt-3">
-                            <input type="tel" class="form-control" id="phone" placeholder="000-000-0000" name="phone" required>
+                            <input type="tel" class="form-control" id="phone" placeholder="000-000-0000" name="phone" value="<?php echo $phone;?>" required>
                             <label for="phone">Phone:</label>
                             <div class="valid-feedback">Valid.</div>
-                            <div class="invalid-feedback">Please fill out this field.</div>
+                            <div class="invalid-feedback">Please fill out this field. <?php echo $phoneErr ?></div>
                         </div>
 
                         <div class="form-floating mb-3 mt-3">
-                            <textarea class="form-control" placeholder="Enter comments and questions here." col="5" row="5"></textarea>
+                            <textarea class="form-control" placeholder="Enter comments and questions here." col="5" row="5" name="comments"></textarea>
                             <label for="comments">Comments:</label>
+                            
                         </div>
 
                         <div class="mb-3">*Required Field</div>
@@ -120,6 +152,14 @@ function form_input($data) {
                     </form>
                 </fieldset>
             </div>
+            <?php
+                echo "<h2>Test Input</h2>" . "<br>";
+                echo "Name: " . $name . "<br>";
+                echo "Email: " . $email . "<br>";
+                echo "Phone: " . $phone . "<br>";
+                echo "Comments " . $comments . "<br>";
+            
+            ?>
         </main>
 
 

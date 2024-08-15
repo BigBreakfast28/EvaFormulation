@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="bg-maroon">
-                    <p class="subliner-mission text-center display-5 pop">
+                    <p class="subliner-mission text-center display-6 pop">
                         EVA is here to help people acheive their dreams. We strive to be much more than a software development company.
                         The greatest satifaction is watching someone reach a goal that they have been striving for. 
                         We understand that behind every business owner is blood, sweat and tears. EVA is a entity that was created for the sole purpose of bringing business development to the next level.<br>
@@ -126,7 +126,7 @@
                 </div>
                 <div>
                     <div class="row ">
-                    <div class="col my-5">
+                    <div class="col my-5 bussiness-goal">
                          <h1 class="text-center pop">Business Goal</h1>
                          <p class="text-center">
                             We work closely with each customer to determine what their business are, if they don't already know. 
@@ -135,7 +135,7 @@
                         </p>
                     </div>
 
-                    <div class="row border-black my-5 ">
+                    <div class="row border-black my-5 design">
                          <h1 class="text-center pop">Design</h1>
                          <p class="text-center">
                             We will create a design that uniques conveys the message of your service. 
@@ -144,7 +144,7 @@
                         </p>
                     </div>
 
-                    <div class="row border-black my-5 ">
+                    <div class="row border-black my-5 sustainability ">
                          <h1 class="text-center pop">Sustainability</h1>
                          <p class="text-center">
                             The website created here at EVA are designed for sustainability. 
@@ -152,7 +152,7 @@
                          </p>
                     </div>
 
-                    <div class="row border-black my-5 ">
+                    <div class="row border-black my-5 support">
                          <h1 class="text-center pop">Support</h1>
                          <p class="text-center">
                             Description about goal
