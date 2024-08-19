@@ -32,6 +32,12 @@ a, ul li {
     padding: 10vw;
 }
 
+.headliner-service {
+    color: white;
+    font-weight: 900;
+    padding: 10vw;
+}
+
 .subliner {
     color: #157b9e;
     font-weight: 800;
@@ -68,6 +74,17 @@ padding-left: 20vw;
     font-weight: 600;
 }
 
+.business-liner {
+    color: white;
+    font-weight: 700;
+    
+}
+
+.business-subliner {
+    color: #fbfdfb;
+    font-weight: 700;
+}
+
 .text-blue {
     color: #408ec6;
 }
@@ -89,6 +106,78 @@ padding-left: 20vw;
     padding: 15vw;
     padding-bottom: 5vw;
 
+}
+
+.business-goal {
+    background-color: #7a2048;
+    padding: 9vw;
+}
+
+.design-goal {
+    background-color: #157b9e;
+    padding: 9vw;
+}
+
+.sustain-goal {
+    background-color: #092f4a;
+    padding: 9vw;
+}
+
+.support-goal {
+    background-color: rgb(82, 9, 82);
+    padding: 7vw;
+}
+
+.contact-me {
+padding: 10vw;
+background-image: url(./public/laptop.jpg);
+background-size:cover;
+background-position-y: 50%;
+}
+
+.contact-btn {
+    background-color: #157b9e;
+    color: white;
+    font-weight: 500;
+}
+
+.eva-logo {
+    background-image: url(./public/evaForm.png);
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+.eva-bg {
+    background-image: url(./public/evaForm.png);
+    background-size: cover;
+    background-position-x: 50%;
+    
+}
+
+.service-img {
+    background-image: url(./public/handshake.jpg);
+    background-size: cover;
+    padding: 20vw;
+}
+
+.choose {
+    font-family: "Archivo", sans-serif;
+}
+
+.market {
+    color:#7a2048;
+    font-weight: 900;
+}
+
+.market-img {
+    /*background-image: url(./public/Molecule.png);*/
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+ol li::marker {
+    font-size: 2em;
 }
 
 
@@ -114,5 +203,7 @@ padding-left: 20vw;
         background-position-x: center;
         color: white;
     }
+
+    
 }
     
