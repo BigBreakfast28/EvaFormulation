@@ -117,7 +117,7 @@ function form_input($data) {
         <main>
         <div class="container-fluid">
             <div class="services">
-                <h1 class="pop headliner-service service-img text-center display-1">What We Offer</h1>
+                <h1 class="pop headliner-service service-img text-center display-1 mt-5">What We Offer</h1>
             </div>
         </div>
 

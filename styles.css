@@ -157,7 +157,7 @@ background-position-y: 50%;
 .service-img {
     background-image: url(./public/handshake.jpg);
     background-size: cover;
-    padding: 20vw;
+    padding: 25vw;
 }
 
 .choose {
@@ -202,6 +202,13 @@ ol li::marker {
         width: 100%;
         background-position-x: center;
         color: white;
+    }
+
+    .headliner-mission {
+        color: #092f4a;
+        font-weight: 900;
+        padding: 10vw;
+        margin-top: 15vw;
     }
 
     

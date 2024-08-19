@@ -114,7 +114,7 @@ function form_input($data) {
         <main>
             <div class="container-fluid">
                 <div class="">
-                    <h1 class="pop headliner-mission text-center display-1">The Journey To Sucess Is More Important Than The Destination</h1>
+                    <h1 class="pop headliner-mission text-center display-1 ">The Journey To Sucess Is More Important Than The Destination</h1>
                 </div>
 
                 <div class="bg-maroon">
